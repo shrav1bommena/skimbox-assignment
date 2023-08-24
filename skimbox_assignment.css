@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.main-div {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+}
+
+.inner-div {
+  margin-top: 100px;
+  width: 341px;
+}
+
+.bundle-top-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #cd264f;
+}
+
+.bundle-hr-line {
+  flex-grow: 1;
+  border-color: #d9d9d9;
+}
+
+.bundle-top-section-text {
+  font-size: 22px;
+  font-weight: 500;
+  margin: 0 8px;
+}
+
+.bundle-middle-section-list {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.bundle-list-item {
+  border: 1px solid #c9c9c9;
+  border-radius: 4px;
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+}
+
+.bundle-list-item-selected {
+  border-color: #f88ca7;
+  background-color: #fff4f7;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5px 5px 10px 5px;
+}
+
+.bundle-list-item-selected-first-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bundle-list-item-selected-second-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bundle-radio-input-div {
+  margin-left: 15px;
+}
+
+.bundle-radio-input {
+  height: 15px;
+  width: 15px;
+}
+
+.bundle-list-item-pair-details-box {
+  flex-grow: 1;
+  margin: 0 10px;
+}
+
+.bundle-item-pair-count-text {
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+
+.bundle-item-pair-price-text {
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.bundle-item-selected-pair-price-text {
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.bundle-item-discount-div {
+  margin-right: 15px;
+}
+
+.bundle-item-selected-pair-price-write-off-div {
+  display: flex;
+  align-items: flex-end;
+  align-self: stretch;
+  margin-left: 38px;
+}
+
+.bundle-item-selected-pair-price-write-off {
+  text-decoration: line-through;
+  font-size: 12px;
+  color: #a3a3a3;
+  font-weight: lighter;
+  margin-bottom: 17px;
+}
+
+.bundle-item-selected-discount-div {
+  margin-left: 8px;
+}
+
+.bundle-item-selected-discount-content-text {
+  color: #cd264f;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.bundle-item-selected-discount-price-text {
+  text-align: right;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.bundle-item-pair-atrb-div {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 48px;
+}
+
+.bundle-item-pair-atrb-text {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 10px;
+  margin-right: 56px;
+}
+
+.bundle-list-item-selected-count-div {
+  display: flex;
+  align-items: center;
+  margin-left: 33px;
+}
+
+.bundle-list-item-selected-count-item {
+  font-size: 10px;
+  margin-right: 3px;
+}
+
+.bundle-list-item-selected-count-input {
+  height: 25px;
+  width: 72px;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  background-color: #ffffff;
+  font-size: 12px;
+}
+
+.shipping-details-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 17px;
+}
+
+.shipping-details-days-text {
+  color: #cd264f;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.add-to-cart-button {
+  cursor: pointer;
+  height: 48px;
+  width: 341px;
+  border: none;
+  background-color: #cd264f;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footer-copyright-div {
+  display: flex;
+  align-items: flex-start;
+  margin-right: 3px;
+}
+
+.footer-copyright {
+  font-size: 8px !important;
+  margin-bottom: 3px;
+  font-weight: lighter;
+}
+
+.footer-section-text {
+  font-size: 12px;
+  font-style: italic;
+  font-weight: lighter;
+}
